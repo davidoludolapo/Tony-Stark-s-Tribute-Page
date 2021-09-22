@@ -66,10 +66,10 @@ span {
     text-align: center;
 }
 
-.card {
+/* .card {
     width: 210px;
     height: 230px;
-    /* display: inline-block; */
+    display: inline-block;
     border-radius: 10px;
     padding: 15px 25px;
     box-sizing: border-box;
@@ -82,4 +82,17 @@ span {
 
 .card1 {
     background-image: url(images/tony-5.jpg);
+} */
+
+
+@media screen and (max-width:600px) {
+
+    #title {
+        text-align: center;
+    }
+    #tribute-info {
+        width: auto;
+        height: auto;
+    }
+    
 }
