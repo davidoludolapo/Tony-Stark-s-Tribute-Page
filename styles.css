@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 
 
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     background: rgb(235, 237, 248);
     font-family: "Space Grotesk", sans-serif;
-    /* overflow: hidden; */
 }
 
 #title {
@@ -45,6 +46,7 @@ span {
 .btn {
     background-color: tomato;
     text-decoration: none;
+    margin-bottom: 40px;
     display: inline-block;
     padding: 12px;
     border: 0;
@@ -66,27 +68,13 @@ span {
     text-align: center;
 }
 
-/* .card {
-    width: 210px;
-    height: 230px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-    background-position: center;
-    background-size: cover; 
-    opacity: 70%;
-}
-
-.card1 {
-    background-image: url(images/tony-5.jpg);
-} */
 
 
 @media screen and (max-width:600px) {
 
+    #img-div img {
+        max-width: none;
+    }
 
     #title {
         text-align: center;
