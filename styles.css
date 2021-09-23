@@ -84,6 +84,10 @@ span {
         height: auto;
     }
 
+    #img-caption {
+        text-align: center;
+    }
+
     .btn {
         margin-bottom: 40px;
     }
